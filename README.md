@@ -15,6 +15,59 @@ This repository contains a robust and user-friendly E-commerce website developed
 - Checkout process using PayPal
 - Order management
 
+## Project Structure
+
+The project directory structure is organized as follows:
+
+```plaintext
+e-commerce-django/
+├── core/                    # Django app with core functionalities such as handling product display, cart operations, etc.
+├── authentication/          # Django app for user authentication
+├── ecommerce/               # Django project folder
+├── static/                  # Static files (CSS, JS, images)
+├── media/                   # Media files (uploaded product images)
+├── templates/               # Base templates for the project
+├── manage.py                # Django's command-line utility
+├── env_variables.py         # Django's secret SETTINGS.PY variable file
+└── requirements.txt         # Required Python packages
+```
+
+## Demo Images 
+
+### Register User
+![9](https://github.com/mustafa854/ecommerce-django/assets/84233282/fabe4e17-5583-48a0-8922-b6de02b24f94)
+
+### Login User
+![8](https://github.com/mustafa854/ecommerce-django/assets/84233282/a739b834-3046-4bff-a67a-42e15cad47d7)
+
+### Empty Cart
+![7](https://github.com/mustafa854/ecommerce-django/assets/84233282/a75730ab-a0d6-4464-b571-014ed061bd0c)
+
+### Index/Shop Page
+![1](https://github.com/mustafa854/ecommerce-django/assets/84233282/63d96de8-60bb-490f-bf31-d1a55bbdb659)
+![2](https://github.com/mustafa854/ecommerce-django/assets/84233282/fc952d2a-9756-4078-a530-5df74e820590)
+
+### Product Page
+![3](https://github.com/mustafa854/ecommerce-django/assets/84233282/177c708d-c9e7-41c0-a7cc-b6c9e910c726)
+
+### Cart Page
+![4](https://github.com/mustafa854/ecommerce-django/assets/84233282/dd075498-0183-4d36-b7c2-498fb71630c9)
+
+### Paypal Payment
+![5](https://github.com/mustafa854/ecommerce-django/assets/84233282/a54e2c67-33ed-406a-b3e8-16c09da10840)
+
+### Payment Success
+![6](https://github.com/mustafa854/ecommerce-django/assets/84233282/5958f003-687c-44bb-b8f4-21eb443a73ef)
+
+### Admin Panel- Order Details
+![10](https://github.com/mustafa854/ecommerce-django/assets/84233282/36c89914-f779-4c9c-bd91-7c8114348612)
+
+### Admin Panel- Cart Detail
+![11](https://github.com/mustafa854/ecommerce-django/assets/84233282/5791e620-87dd-4cb7-9711-549a53dd0e3a)
+
+### Admin Panel- User List
+![12](https://github.com/mustafa854/ecommerce-django/assets/84233282/04f6b0b7-554e-4100-b2ab-557259bac16e)
+
 ## Installation
 
 1. **Clone the repository:**
@@ -64,7 +117,6 @@ This repository contains a robust and user-friendly E-commerce website developed
     ```bash
     python manage.py runserver
     ```
-
 
 ## Usage
 
